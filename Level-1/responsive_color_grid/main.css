@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box; 
+    font-size: 0px;
+}
+body {
+    box-sizing: border-box; 
+    font-size: 0px;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#pink {
+    background-color: #F5C6D6;
+    width: 100%;
+    height: 11%;
+    border-bottom: 10px solid white;
+}
+
+#hotPink {
+    background-color: #EE2E84;
+    width: 100%;
+    height: 11%;
+    border-bottom: 10px solid white;
+}
+#hotPink2 {
+    background-color: #EE2E84;
+    width: 100%;
+    height: 11%;
+    border-bottom: 10px solid white;
+}
+#lightBlue {
+    background-color: #85CFD8;
+    width: 100%;
+    height: 11%;
+    border-bottom: 10px solid white;
+}
+#lightBlue2 {
+    background-color: #85CFD8;
+    width: 100%;
+    height: 11%;
+    border-bottom: 10px solid white;
+}
+#green {
+    background-color: #8DC63F;
+    width: 100%;
+    height: 11%;
+    border-bottom: 10px solid white;
+}
+#orange {
+    background-color: #E76E34;
+    width: 100%;
+    height: 11%;
+    border-bottom: 10px solid white;
+}
+
+
+@media (min-width: 768px){
+    #pink {
+        background-color: #F5C6D6;
+        width: 100%;
+        height: 25%;
+        border-bottom: 10px solid white;
+    }
+    
+    #hotPink {
+        background-color: #EE2E84;
+        width: 24.5%;
+        height: 25%;
+        border-bottom: 10px solid white;
+        border-right: 10px solid white;
+        display: inline-block;
+    }
+    #hotPink2 {
+        background-color: #EE2E84;
+        width: 24.5%;
+        height: 25%;
+        border-bottom: 10px solid white;
+        display: inline-block;
+    }
+    #lightBlue {
+        background-color: #85CFD8;
+        width: 49.5%;
+        height: 25%;
+        border-bottom: 10px solid white;
+        border-right: 10px solid white;
+        display: inline-block;
+    }
+    #lightBlue2 {
+        background-color: #85CFD8;
+        width: 49.5%;
+        height: 25%;
+        border-bottom: 10px solid white;
+        display: inline-block;
+    }
+    #green {
+        background-color: #8DC63F;
+        width: 79%;
+        height: 25%;
+        border-bottom: 10px solid white;
+        border-right: 10px solid white;
+        display: inline-block;
+    }
+    #orange {
+        background-color: #E76E34;
+        width: 20%;
+        height: 25%;
+        border-bottom: 10px solid white;
+        display: inline-block;
+    }
+}

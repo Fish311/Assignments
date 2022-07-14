@@ -1,0 +1,232 @@
+.flag1 {
+height: 200px;
+width: 300px;
+display: inline-block;
+padding: 0px;
+margin: 0px;
+border: 0px;
+}
+.color1 {
+background-color: #002495;
+display: inline-block;
+width: 100px;
+height: 200px;
+padding: 0px;
+margin: 0px;
+border: 0px;
+position: absolute;
+
+}
+.color2 {
+background-color: white;
+display: inline-block;
+width: 100px;
+height: 200px;
+padding: 0px;
+margin-left: 100px;
+border: 0px;
+position: absolute;
+}
+.color3 {
+background-color: #ed2938;
+display: inline-block;
+width: 100px;
+height: 200px;
+padding: 0px;
+margin-left: 200px;
+border: 0px;
+position: absolute;
+}
+body {
+    background-color: violet;
+}
+.germany {
+height: 200px;
+width: 333px;
+display: inline-block;
+padding: 0px;
+margin: 0px;
+border: 0px;
+}
+.germany1 {
+background-color: black;
+display: inline-block;
+width: 333px;
+height: 66.6666px;
+padding: 0px;
+margin: 0px;
+border: 0px;
+position: absolute;
+}
+.germany2 {
+    background-color:#de0002;
+    display: inline-block;
+    width: 333px;
+    height: 66.6666px;
+    padding: 0px;
+    margin-top: 66.6666px;
+    border: 0px;
+    position: absolute;
+    }
+.germany3 {
+        background-color:#ffce00;
+        display: inline-block;
+        width: 333px;
+        height: 66.6666px;
+        padding: 0px;
+        margin-top: 133.3333px;
+        border: 0px;
+        position: absolute;
+        }
+.madagascar {
+    height: 200px;
+width: 300px;
+display: inline-block;
+padding: 0px;
+margin: 0px;
+border: 0px;
+}
+.madagascar1 {
+    background-color: white;
+display: inline-block;
+width: 100px;
+height: 200px;
+padding: 0px;
+margin: 0px;
+border: 0px;
+position: absolute;
+}
+.madagascar2 {
+    background-color: #fc3e32;
+display: inline-block;
+width: 200px;
+height: 100px;
+padding: 0px;
+margin-left: 100px;
+border: 0px;
+position: absolute;
+}
+.madagascar3 {
+    background-color: #007e39;
+display: inline-block;
+width: 200px;
+height: 100px;
+padding: 0px;
+margin-left: 100px;
+margin-top: 100px;
+border: 0px;
+position: absolute;
+}
+.switzerland {
+    background-color: #ff0002;
+display: inline-block;
+width: 200px;
+height: 200px;
+padding: 0px;
+margin: 0px;
+border: 0px;
+}
+.switzerland1 {
+    background-color: white;
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+.switzerland2 {
+    background-color: white;
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+.sweden {
+    background-color: #0269a6;
+    display: inline-block;
+    width: 800px;
+    height: 500px;
+}
+.sweden1 {
+    background-color: #FECC00;
+    position: absolute;
+    height: 500px;
+    width: 100px;
+    margin-left: 250px;
+}
+.sweden2 {
+    background-color: #FECC00;
+    position: absolute;
+    height: 100px;
+    width: 800px;
+    margin-top: 200px;
+}
+.gambia {
+    background-color: white;
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+}
+.gambia1 {
+    background-color: #CE1127;
+    position: absolute;
+    height: 60px;
+    width: 300px;
+}
+.gambia2 {
+    background-color: #3b7827;
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    margin-top: 140px;
+}
+.gambia3 {
+    background-color: #0d1d8b;
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    margin-top: 75px;
+}
+.japan {
+    background-color: white;
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+}
+.japan1 {
+    background-color: #bc022c;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.niger {
+    background-color: white;
+    display: inline-block;
+    height: 600px;
+    width: 700px;
+}
+.niger1 {
+    background-color: #e15307;
+    height: 200px;
+    width: 700px;
+    position: absolute;
+}
+.niger2 {
+    background-color: #10af2a;
+    height: 200px;
+    width: 700px;
+    position: absolute;
+    margin-top: 400px;
+}
+.niger3 {
+    background-color: #e15307;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 225px;
+    margin-left: 250px;
+}
