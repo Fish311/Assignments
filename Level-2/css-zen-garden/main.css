@@ -1,0 +1,319 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/juliussansone/v14/1Pt2g8TAX_SGgBGUi0tGOYEga5WOzHsXy6KHHow-.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/juliussansone/v14/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsXy6KHHg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWx8QDO-WyrubOA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWxEQDO-Wyrs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNXaxMaC82U-ro.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxMaC82U.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+      font-family: "verdemoderna";
+      src: url("./verdemoderna.woff");
+  }
+  
+body {
+    background-attachment: scroll, scroll, fixed;
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
+    padding: 0;
+    margin: 0;
+    background-size: auto, auto, cover;
+    color: #325050;
+    
+    font-family: 'Libre Baskerville', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+
+#titleBox {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: black;
+    background-image: url(http://www.csszengarden.com/214/contours@2x.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
+    background-size: 50% auto, auto, auto, cover;
+    
+    grid-column: 1/ span 2;
+}
+
+#logoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 310px;
+    gap: 32px;
+    text-align: center;
+}
+#titleCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logoIMG {
+    height: 125px;
+    width: 125px;
+}
+
+#title {
+    font-size: 3.2em;
+    color: #fff;
+}
+
+#title2 {
+    color: rgba(255,255,255,0.6);
+    font-size: 1.6em;
+    font-style: italic;
+}
+
+
+#cycleBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(138,188,159,0.5);
+    opacity: 0.5;
+    font-family: "verdemoderna";
+    color: rgba(255, 255, 255, 0.65);
+    gap: 1px;
+    flex: 1;
+}
+
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.arrow:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#viewAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Julius Sans One';
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 70px;
+    flex: 1;
+}
+
+#viewAll:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#content1 {
+    background-color: white;
+    
+}
+
+#authors {
+    background: #edf4f0;
+    
+}
+
+#content2 {
+    
+}
+
+#moreInfo {
+    background: rgba(138,188,159,0.5);
+    opacity: 0.5;
+}
+
+#content3 {
+    background-color: white;
+}
+
+#blank {
+    background: #edf4f0;
+}
+
+#authorBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    height: 320px;
+    color: white;
+    background-color: #3e5d67;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-image: url(http://www.csszengarden.com/214/contours@2x.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/koi.jpg);
+    background-position: 0 0, -5px -25px, 0 0, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+    grid-column: 1/ span 2;
+}
+
+#resourceBar {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+    background: #134347;
+    grid-column: 1/ span 2;
+    font-family: "verdemoderna";
+    min-height: 100px;
+    font-size: 64px;
+}
+
+@media screen and (max-width: 1132px) {
+    #container {
+
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(9);
+    }
+
+    #authorBar {
+        background-color: turquoise;
+    
+        grid-column: 1;
+        
+    }
+    
+    #titleBox {
+        grid-column: 1;
+        grid-template-columns: 100%;
+        grid-template-rows: 60% 40%;
+        min-height: 230px;
+    }
+
+    #logoBox {
+        min-height: auto;
+    }
+
+    #logoIMG {
+        height: 80px;
+        width: 80px;
+    }
+    
+    #title {
+        font-size: 1.6em;
+        color: #fff;
+    }
+    
+    #title2 {
+        color: rgba(255,255,255,0.6);
+        font-size: .8em;
+        font-style: italic;
+    }
+
+
+    #resourceBar {
+       
+        grid-column: 1;
+        
+    }
+    #blank {
+        display: none;
+    }
+    #authors {
+        grid-row-start: 8;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    }
+    #moreInfo {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-row-start: 9;
+    }
+    #viewAll {
+        height: 100%;
+    }
+    .arrow {
+        height: 100%;
+    }
+/*     
+    
+    #cycleBar {
+        background-color: red;
+        grid-column-start: 1;
+    }
+    
+    #content1 {
+        background-color: blue;
+        grid-column-start: 1;
+    }
+    
+    #content2 {
+        background-color: yellow;
+        grid-column-start: 1;
+    }
+
+    #content3 {
+        background-color: pink;
+        grid-column-start: 1;
+    }
+
+    #authors {
+        background-color: green;
+        grid-column-start: 1;
+    }
+    
+    
+    #moreInfo {
+        background-color: purple;
+        grid-column-start: 1;
+    }
+    
+    #blank {
+        background-color: orange;
+        grid-column-start: 1;
+    } */
+    
+  }

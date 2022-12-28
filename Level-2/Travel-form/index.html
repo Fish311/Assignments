@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="main.css" rel="stylesheet" type="text/css" >
+    </head>
+    <body>
+        <div id="content">
+             <h1>PASSENGER INFO</h1>
+            <form name="passengerInfo">
+                First Name: <input type="text" name="firstName">
+                Last Name: <input type="text" name="lastName">
+                Age: <input type="number" name="age">
+                Male: <input type="radio" name="gender" value="Male">
+                Female: <input type="radio" name="gender" value="Female">
+                <select name="destination">
+                    <option value="Alaska">Alaska</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Hawaii">Hawaii</option>
+                </select>
+                Dietary Restrictions: <br>
+                Vegetarian: <input type="checkbox" value="Vegetarian" name="dietRestrictions">
+                Kosher: <input type="checkbox" value="Kosher" name="dietRestrictions">
+                Lactose Free: <input type="checkbox" value="Lactose Free" name="dietRestrictions">
+                <button>Submit</button>
+            </form>
+        </div>
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>

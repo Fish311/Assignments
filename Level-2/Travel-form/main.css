@@ -1,0 +1,39 @@
+html, body, div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Playfair Display', serif;
+    background-color: thistle;
+}
+h1 {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+input {
+    margin-bottom: 20px;
+}
+button {
+    margin-bottom: 100px;
+}

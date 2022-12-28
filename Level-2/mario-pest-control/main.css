@@ -1,0 +1,65 @@
+html, body, div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Playfair Display', serif;
+}
+h1 {
+    font-size: xx-large;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#creatures {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#subButton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+button {
+    width: 200px;
+    height: 50px;
+    
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+#navBar {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid black;
+  }
+a {
+    margin-right: 30px;
+}
+#goombaImage {
+      height: 300px;
+      width: 300px;
+  }
+#bombombImage {
+    height: 300px;
+    width: 300px;
+}
+#cheepImage {
+    height: 300px;
+    width: 300px;
+}

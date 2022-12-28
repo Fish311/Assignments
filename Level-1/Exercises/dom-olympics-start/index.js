@@ -58,6 +58,13 @@ var newSubmit = document.getElementsByName("message")
 newSubmit[0].addEventListener("submit", function(event){
     event.preventDefault()
     var div = document.createElement("div")
+    // check the value of the themeSelect dropdown 
+    // themeSelect.value
+    // if value === "theme-two"
+    // div.style.background = "lightblue"
+    // div.style.color = "black"
+
+    // else if value =="theme-one"
     div.classList.add("message")
     div.classList.add(position)
     div.textContent = event.target[0].value;
