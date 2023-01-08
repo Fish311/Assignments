@@ -1,0 +1,63 @@
+{
+    "appetizers": [
+        {
+            "name": "Nachos",
+            "ingredients": ["chips", "cheese"],
+            "description": "A tasty platter of cheesy nachos"
+        },
+        {
+            "name": "Spinach Artichoke Dip",
+            "ingredients": ["Spinach", "artichoke"],
+            "description": "A tasty dip for your chips."
+        }
+    ],
+    "coldSandwiches": [
+        {
+            "name": "Italian",
+            "ingredients": ["pepperoni", "cheese", "tomato"],
+            "description": "Our famous Italian sub sammy."
+        },
+        {
+            "name": "Turkey",
+            "ingredients": ["Turkey", "cheese", "lettuce"],
+            "description": "A classic turkey sammy."
+        }
+    ],
+    "hotSandwiches": [
+        {
+            "name": "Meatball",
+            "ingredients": ["Marinara sauce", "Meatballs"],
+            "description": "A yummy meatball sub with marinara sauce."
+        },
+        {
+            "name": "Rotissery chicken",
+            "ingredients": ["chicken", "cheese", "garlic"],
+            "description": "A hot chicken sammy with cheese and garlic."
+        }
+    ],
+    "desserts": [
+        {
+            "name": "Chocolate Ice cream",
+            "ingredients": ["chocolate Ice cream, sprinkles"],
+            "description": "A classic soft serve ice cream."
+        },
+        {
+            "name": "Kazookie",
+            "ingredients": ["chocolate chip cookie, Ice cream of your choice"],
+            "description": "A hot n fresh cookie over your favorite ice cream."
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Lemonade",
+            "ingredients": ["fresh sqeezed lemons"],
+            "description": "A glass of our famous fresh lemonade."
+        },
+        {
+            "name": "Mountain Dew",
+            "ingredients": ["Dew from the highest mountain", "water"],
+            "description": "The best soda out there."
+        }
+    ]
+    
+}
