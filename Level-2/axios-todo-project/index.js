@@ -17,6 +17,7 @@ function listData(data){
         const checkboxComplete = document.createElement('input')
         checkboxComplete.type = 'checkbox'
         checkboxComplete.id = "complete"
+        checkboxComplete.checked = data[i].completed
         let labelForComplete = document.createElement('label')
         labelForComplete.for = "complete"
         labelForComplete.textContent = "Complete?"
