@@ -79,7 +79,7 @@ export default function App() {
             name="firstName"
             onChange={handleChange}
             value={formData.firstName}
-            minlength="3"
+            minLength="3"
             required
           />    
           <input
@@ -89,7 +89,7 @@ export default function App() {
             name="lastName"
             onChange={handleChange}
             value={formData.lastName}
-            minlength="3"
+            minLength="3"
             required
           />
         </div>
@@ -101,7 +101,7 @@ export default function App() {
             name="email"
             onChange={handleChange}
             value={formData.email}
-            minlength="3"
+            minLength="3"
             required
           />
           <input
@@ -111,7 +111,7 @@ export default function App() {
             name="placeOfBirth"
             onChange={handleChange}
             value={formData.placeOfBirth}
-            minlength="3"
+            minLength="3"
             required
           />
         </div>
@@ -123,8 +123,8 @@ export default function App() {
             name="phoneNumber"
             onChange={handleChange}
             value={formData.phoneNumber}
-            minlength="10"
-            maxlength="10"
+            minLength="10"
+            maxLength="10"
             required
           />
           <input
@@ -134,7 +134,7 @@ export default function App() {
             name="favoriteFood"
             onChange={handleChange}
             value={formData.favoriteFood}
-            minlength="3"
+            minLength="3"
             required
           />
         </div>
@@ -145,7 +145,7 @@ export default function App() {
           name="aboutYou"
           onChange={handleChange}
           value={formData.aboutYou}
-          minlength="3"
+          minLength="3"
           required
         />
         <button
